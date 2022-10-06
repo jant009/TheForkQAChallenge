@@ -57,7 +57,7 @@ public class ProfilePage {
         CommonActions.clickButton(driver.findElement(user_personal_info_btn));
         Assert.assertTrue(driver.findElement(user_personal_info_container).isDisplayed());
     }
-    public void checkPersonnalInfo(String firstName, String lastName, String phoneNumber){
+    public void checkPersonalInfo(String firstName, String lastName, String phoneNumber){
         CommonActions.checkValue(driver.findElement(user_personal_info_firstname),"value",firstName);
         CommonActions.checkValue(driver.findElement(user_personal_info_lastName),"value",lastName);
         CommonActions.checkValue(driver.findElement(user_personal_info_phoneNumber),"value",phoneNumber);

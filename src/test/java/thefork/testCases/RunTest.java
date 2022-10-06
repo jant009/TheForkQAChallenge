@@ -12,7 +12,7 @@ import thefork.tools.WebDriverManagement;
 public class RunTest {
 
     WebDriver driver;
-    String url = "https://www.conforama.com/";
+    String url = "https://www.thefork.com/";
     String email = "jonathan.qa@yopmail.com";
     String password = "QAchanllenge1";
     String firstName = "jonathan";
@@ -47,6 +47,6 @@ public class RunTest {
 
         profilePage.accessToPersonalInfo();
 
-        profilePage.checkPersonnalInfo(firstName,lastName,phoneNumber);
+        profilePage.checkPersonalInfo(firstName,lastName,phoneNumber);
     }
 }
